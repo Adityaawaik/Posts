@@ -29,7 +29,7 @@ const PostCard = ({ posts }) => {
             value={posts.body}
           ></textarea>
           {posts.tags.map((tag, index) => (
-            <span key={index} className="badge text-bg-dark tags">
+            <span key={index} className="badge text-bg-light tags">
               {tag}
             </span>
           ))}
