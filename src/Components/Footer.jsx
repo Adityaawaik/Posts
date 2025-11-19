@@ -21,9 +21,6 @@ const Footer = () => {
                 <use xlinkHref="#bootstrap"></use>
               </svg>{" "}
             </a>{" "}
-            <span className="mb-3 mb-md-0 text-body-secondary">
-              © 2025 Company, Inc
-            </span>{" "}
           </div>{" "}
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
             {" "}
