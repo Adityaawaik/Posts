@@ -2,6 +2,11 @@
 
 Check here :  https://adityaawaik.github.io/Posts/
 
+# Features : 
+1. Create new posts with ease
+2. Like or dislike posts
+3. Add new posts or delete existing ones
+   
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
