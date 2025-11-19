@@ -30,14 +30,19 @@ const Footer = () => {
             <li className="ms-3">
               <a
                 className="text-body-secondary"
-                href="#"
+                target="_blank"
+                href="https://www.instagram.com/"
                 aria-label="Instagram"
               >
                 <FaInstagram className="instagram-logo" />
               </a>
             </li>{" "}
             <li className="ms-3">
-              <a className="text-body-secondary" href="#" aria-label="Facebook">
+              <a
+                className="text-body-secondary"
+                href="https://www.facebook.com/"
+                aria-label="Facebook"
+              >
                 <CiFacebook className="facebook-logo" />
               </a>
             </li>{" "}

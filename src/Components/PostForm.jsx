@@ -34,8 +34,8 @@ const PostForm = () => {
       setName("");
       setContent("");
       setTags("");
+      navigateToHome("/home");
     }
-    navigateToHome("/home");
   };
 
   return (
@@ -52,6 +52,7 @@ const PostForm = () => {
               id="name"
               onChange={handleNameChange}
               value={name}
+              placeholder="Enter your name"
             />
           </div>
           <div className="mb-3">
@@ -64,6 +65,7 @@ const PostForm = () => {
               id="title"
               onChange={handleTitleChange}
               value={title}
+              placeholder="Post Title"
             />
           </div>
 
@@ -77,6 +79,7 @@ const PostForm = () => {
               id="content"
               onChange={handleContentChange}
               value={content}
+              placeholder="Tell us more about it"
             />
           </div>
 
@@ -90,6 +93,7 @@ const PostForm = () => {
               id="tags"
               onChange={handleTagChange}
               value={tags}
+              placeholder="Please use comma to separate tags"
             />
           </div>
 
